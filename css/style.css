@@ -240,7 +240,7 @@
     height: 100vw;
     padding: 20px 15px 30px;
     box-sizing: border-box;
-    transform: scale(1.1);
+    transform: scale(1.05);
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -259,6 +259,7 @@
     line-height: 22px;
     margin-top: 0px;
     padding-bottom: 0;
+    width: auto;
   }
 
   .coming-soon, .get-updates {
@@ -266,8 +267,8 @@
   }
 
   .get-updates {
-    margin-top: 20px;
-    margin-bottom: 6px;
+    margin-top: 5px;
+    margin-bottom: 0px;
   }
 
   #mc_embed_signup_scroll > div {
@@ -300,6 +301,7 @@
   .we-won-t-share-your {
     font-size: 10px;
     margin-top: 4px;
+    margin-bottom: 4px;
   }
 
   .contact-us {
