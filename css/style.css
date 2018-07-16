@@ -145,6 +145,11 @@
 @media (max-width: 768px){
 }
 @media (max-width: 480px) {
+
+  .commonwise {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
   .headback {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -152,6 +157,9 @@
   .circle-container {
     border-radius: 0;
     width: 90%;
+    padding: 20px 20px 80px;
+    box-sizing: border-box;
+    height: auto;
   }
 
   .circle-container>div {
@@ -159,9 +167,13 @@
   }
   
   .a-new-project-to-acc {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 38px;
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+
+  .coming-soon, .get-updates {
+    font-size: 20px;
   }
 
   #mc_embed_signup_scroll > div {
@@ -176,5 +188,10 @@
     margin-bottom: 20px;
     text-align: center;
     padding: 0;
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
   }
 }
