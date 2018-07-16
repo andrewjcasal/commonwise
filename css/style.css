@@ -1,15 +1,19 @@
-/*** OVERALL PAGE SPECS ***/
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .headback{
   background-image:url('../img/background.jpg');
-  background-size: cover;
+  background-size: 1558px 1000px ;
   background-repeat: no-repeat;
   height: 100vh;
   padding-top: 50px;
 }
 .circle-container{
   background: rgba(0,0,0,0.79);
-  width: 100vmin;
-  height: 100vmin;
+  width: 900px;
+  height: 900px;
   border-radius: 50%;
   margin: 0 auto;
   position: relative;
@@ -28,7 +32,7 @@
   max-height: 900px;
 }
 .commonwise {	    
-  margin-bottom: 8%; 
+  margin-bottom: 78px; 
   height: 52px;		
   color: #7FB54E;	
   font-family: Montserrat;	
@@ -45,6 +49,7 @@
   font-weight: 200;	
   line-height: 27px;	
   text-align: center;
+  margin-bottom: 12px;
 }
 .a-new-project-to-acc {		
   color: #FFFFFF;	
@@ -59,24 +64,25 @@
 }
 .get-updates {	
   height: 27px;
-  margin-top: 10%;
-  margin-bottom: 3%;		
+  margin-top: 92px;
+  margin-bottom: 23px;		
   color: #FFFFFF;	
   font-family: Montserrat;	
   font-size: 22px;	
-  font-weight: 300;	
+  font-weight: 200;	
   line-height: 27px;	
   text-align: center;
 }
 .we-won-t-share-your {
   margin-bottom: 8%;
-  margin-top: 2%;
+  margin-top: 20px;
   height: 19px;		
   color: #AEAEAE;	
   font-family: Montserrat;	
   font-size: 16px;	
   line-height: 19px;	
   text-align: center;
+  font-weight: 200;
 }
 .contact-us {	
   height: 19px;	
@@ -105,7 +111,10 @@
   font-size: 16px;
   line-height: 19px;
   border-radius: 0px;
-  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
 }
 .button
 {
@@ -122,7 +131,10 @@
   text-transform: uppercase;
   font-weight: 300;
   border-radius: 0px;
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  margin-top: 1px;
 }
 #message p{
   color:#ffffff;
