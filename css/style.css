@@ -7,8 +7,8 @@
   background-image:url('../img/background.jpg');
   background-size: 1558px 1000px ;
   background-repeat: no-repeat;
-  height: 100vh;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .circle-container{
   background: rgba(0,0,0,0.79);
@@ -21,15 +21,12 @@
   max-height: 900px;
 }
 .circle-container>div{
-  position: absolute;
-  top: 49%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-width: 80%;
   margin: 0 auto;
   width: 100%;
   max-width: 900px;
   max-height: 900px;
+  padding-top: 120px;
 }
 .commonwise {	    
   margin-bottom: 78px; 
@@ -141,47 +138,43 @@
   padding-top: 47px;
 }
 #message p.coerror{
-  color:red;
+  color: red;
+  text-align: center;
+  font-family: Montserrat;
 }
 @media (max-width: 768px){
-  .a-new-project-to-acc{
-      font-size: 27px;
-      line-height: 37px;
-  }
-  .commonwise{
-      font-size: 34px;
-      height: 43px;
-      margin-bottom: 7%;
-  }
 }
 @media (max-width: 480px) {
   .headback {
-      padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .circle-container{
-      width: 95%;
-      height: 95%;
-      padding: 15px 20px;
-      border-radius: 0%;
-  }  
+  .circle-container {
+    border-radius: 0;
+    width: 90%;
+  }
+
   .circle-container>div {
-      max-width: 90%;
-      top: 48%;
-  } 
-  .commonwise {
-      margin-bottom: 17%;
+    padding-top: 40px;
   }
+  
+  .a-new-project-to-acc {
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 30px;
+  }
+
+  #mc_embed_signup_scroll > div {
+    text-align: center;
+  }
+
   .get-updates {
-      margin-top: 15%;
+    margin-top: 60px;
   }
+
   .text-field {
-      width: 230px;
-      margin-left: 7px;
-  }
-  .submit {
-      width: 100px;
-  }
-  .we-won-t-share-your {
-      margin-bottom: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0;
   }
 }
