@@ -153,9 +153,9 @@
     padding-bottom: 20px;
   }
   .circle-container {
-    border-radius: 0;
-    width: 90%;
-    padding: 20px 15px 60px;
+    border-radius: 100%;
+    width: 100%;
+    padding: 20px 15px 30px;
     box-sizing: border-box;
     height: auto;
   }
