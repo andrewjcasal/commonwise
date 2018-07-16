@@ -247,7 +247,8 @@
 
   .coming-soon {
     margin-bottom: 2px;
-    padding-top: 0
+    padding-top: 0;
+    display: none;
   }
 
   .circle-container>div {
@@ -259,7 +260,7 @@
     line-height: 22px;
     margin-top: 0px;
     padding-bottom: 0;
-    width: auto;
+    width: 90%;
   }
 
   .coming-soon, .get-updates {
