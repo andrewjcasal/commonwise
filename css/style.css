@@ -142,11 +142,11 @@
   text-align: center;
   font-family: Montserrat;
 }
-@media (max-width: 480px) {
-
+@media (max-width: 640px) {
   .commonwise {
-    font-size: 18px;
+    font-size: 28px;
     margin-bottom: 10px;
+    padding-top: 50px;
   }
   .headback {
     padding-top: 20px;
@@ -154,24 +154,108 @@
   }
   .circle-container {
     border-radius: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 100vw;
     padding: 20px 15px 30px;
     box-sizing: border-box;
-    height: auto;
   }
 
   .coming-soon {
     margin-bottom: 2px;
+    padding-top: 40px;
   }
 
   .circle-container>div {
+    padding-top: 0;
+  }
+  
+  .a-new-project-to-acc {
+    font-size: 30px;
+    line-height: 42px;
+    margin-top: 0px;
+    width: 80%;
+    padding-bottom: 50px;
+  }
+
+  .coming-soon, .get-updates {
+    font-size: 18px;
+  }
+
+  .get-updates {
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+
+  #mc_embed_signup_scroll > div {
+    text-align: center;
+  }
+
+  .text-field {
+    margin-bottom: 4px;
+    padding-left: 10px;
+    width: 54%;
+    font-size: 12px;
+    height: 40px;
+  }
+
+  #message p.coerror {
+    padding-top: 0px;
+    font-size: 12px;
+  }
+
+  .button {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    width: 26%;
+    vertical-align: top;
+    margin-top: 0px;
+    font-size: 12px;
+    height: 40px;
+  }
+
+  .we-won-t-share-your {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .contact-us {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .commonwise {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+  }
+  .headback {
     padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .circle-container {
+    border-radius: 100%;
+    width: 100vw;
+    height: 100vw;
+    padding: 20px 15px 30px;
+    box-sizing: border-box;
+  }
+
+  .coming-soon {
+    margin-bottom: 2px;
+    padding-top: 0
+  }
+
+  .circle-container>div {
+    padding-top: 0;
   }
   
   .a-new-project-to-acc {
     font-size: 16px;
     line-height: 22px;
     margin-top: 0px;
+    padding-bottom: 0;
   }
 
   .coming-soon, .get-updates {
