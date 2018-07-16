@@ -148,7 +148,7 @@
 
   .commonwise {
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .headback {
     padding-top: 20px;
@@ -157,18 +157,18 @@
   .circle-container {
     border-radius: 0;
     width: 90%;
-    padding: 20px 20px 80px;
+    padding: 20px 15px 60px;
     box-sizing: border-box;
     height: auto;
   }
 
   .circle-container>div {
-    padding-top: 40px;
+    padding-top: 20px;
   }
   
   .a-new-project-to-acc {
-    font-size: 26px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 32px;
     margin-top: 10px;
   }
 
@@ -181,7 +181,7 @@
   }
 
   .get-updates {
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   .text-field {
