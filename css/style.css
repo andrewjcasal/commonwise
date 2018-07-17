@@ -271,6 +271,7 @@ and (orientation : landscape) {
     height: 100vh;
     padding: 20px 0px 30px;
     box-sizing: border-box;
+    transform: scale(0.95)
   }
 
   .coming-soon {
@@ -365,6 +366,7 @@ and (orientation : landscape) {
     margin-bottom: 40px;
     position: absolute;
     top: 22%;
+    transform: scale(0.95)
   }
 
   .coming-soon {
