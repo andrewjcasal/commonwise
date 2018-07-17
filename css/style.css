@@ -159,6 +159,7 @@ and (orientation : portrait) {
   .circle-container {
     width: 100vw;
     height: 100vw;
+    padding-top: 20px;
   }
   .commonwise {
     margin-bottom: 4vh;
@@ -181,10 +182,18 @@ and (orientation : portrait) {
   .we-won-t-share-your {
     margin-bottom: 30px;
   }
+  #mc_embed_signup_scroll>div{
+    text-align: center;
+  }
 
   .button {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
+    width: 90px;
+  }
+
+  .text-field {
+    width: 230px;
   }
 }
 /* ipad landscape */
@@ -203,6 +212,8 @@ and (orientation : landscape) {
   .circle-container {
     width: 100vh;
     height: 100vh;
+    padding-top: 30px;
+    box-sizing: border-box;
   }
   .commonwise {
     margin-bottom: 4vh;
@@ -210,7 +221,7 @@ and (orientation : landscape) {
 
   .a-new-project-to-acc {
     font-size: 30px;
-    line-height: 50px;
+    line-height: 40px;
     margin: 0 auto;
     width: 500px;
   }
@@ -223,10 +234,21 @@ and (orientation : landscape) {
     width: 400px;
     margin: 0 auto;
   }
+  #mc_embed_signup_scroll>div{
+    text-align: center;
+  }
 
   .button {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
+    width: 90px;
+  }
+
+  .text-field {
+    width: 230px;
+  }
+  .we-won-t-share-your {
+    margin-bottom: 5%;
   }
 }
 @media (orientation: landscape) and (max-width: 736px) {
