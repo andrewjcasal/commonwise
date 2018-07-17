@@ -194,9 +194,10 @@
   .text-field {
     margin-bottom: 4px;
     padding-left: 10px;
-    width: 54%;
-    font-size: 12px;
+    width: 45%;
+    font-size: 10px;
     height: 40px;
+    margin-right: 0;
   }
 
   #message p.coerror {
@@ -207,7 +208,7 @@
   .button {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
-    width: 26%;
+    width: 20%;
     vertical-align: top;
     margin-top: 0px;
     font-size: 12px;
@@ -244,7 +245,6 @@
     height: 100vw;
     padding: 12vw 15px 30px;
     box-sizing: border-box;
-    transform: scale(1.05);
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -282,10 +282,11 @@
 
   .text-field {
     margin-bottom: 4px;
-    padding-left: 10px;
-    width: 54%;
-    font-size: 12px;
+    padding-left: 2px;
+    width: 45%;
+    font-size: 10px;
     height: 40px;
+    margin-right: 0;
   }
 
   #message p.coerror {
@@ -296,7 +297,7 @@
   .button {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
-    width: 26%;
+    width: 20%;
     vertical-align: top;
     margin-top: 0px;
     font-size: 12px;
