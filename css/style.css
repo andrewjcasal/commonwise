@@ -143,6 +143,9 @@
   font-family: Montserrat;
 }
 @media (orientation: landscape) and (max-width: 700px) {
+  .headline {
+    height: 40vh;
+  }
   .commonwise {
     font-size: 18px;
     margin-bottom: 0px;
