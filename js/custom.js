@@ -15,10 +15,9 @@
               contentType: "application/json; charset=utf-8",
               success: function (data) {
                   if (data['result'] != "success") {
-                      //$('#message').text('<p>'+data['msg']+'</p>');
-                      $('#message').html('<p class="coerror">'+data['msg']+'</p>');
+                      $('#message').html('<p class="coerror">Already Subscribed</p>');
                   } else {
-                      $('#message').html('<p>Thank you. You will get a confirmation email that you must respond to.</p>');
+                      $('#message').html('<p>Thank you. Check your email</p>');
                   }
               }
           });
