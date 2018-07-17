@@ -355,7 +355,7 @@ and (orientation : landscape) {
 @media (orientation: portrait) and (max-width: 600px) {
 
   .headline {
-    height: 22vh;
+    height: 135px;
   }
   .commonwise {
     font-size: 18px;
@@ -487,7 +487,7 @@ and (orientation : landscape) {
   .a-new-project-to-acc {
     font-size: 16px;
     line-height: 22px;
-    margin-top: 0px;
+    margin-top: 16px;
     width: 80%;
     padding-bottom: 0px;
   }
@@ -580,7 +580,7 @@ and (orientation : portrait) {
   .a-new-project-to-acc {
     font-size: 16px;
     line-height: 22px;
-    margin-top: 15px;
+    margin-top: 26px;
     width: 80%;
     padding-bottom: 0px;
   }
