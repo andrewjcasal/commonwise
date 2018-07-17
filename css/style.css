@@ -485,9 +485,9 @@ and (orientation : landscape) {
   }
   
   .a-new-project-to-acc {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
-    margin-top: 16px;
+    margin-top: 10px;
     width: 80%;
     padding-bottom: 0px;
   }
@@ -578,9 +578,9 @@ and (orientation : portrait) {
   }
 
   .a-new-project-to-acc {
-    font-size: 16px;
-    line-height: 22px;
-    margin-top: 26px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
     width: 80%;
     padding-bottom: 0px;
   }
