@@ -142,7 +142,7 @@
   text-align: center;
   font-family: Montserrat;
 }
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 700px) {
   .commonwise {
     font-size: 18px;
     margin-bottom: 0px;
@@ -224,7 +224,7 @@
   }
 }
 
-@media (orientation: portrait) {
+@media (orientation: portrait) and (max-width: 600px) {
 
   .commonwise {
     font-size: 18px;
