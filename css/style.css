@@ -160,6 +160,7 @@ and (orientation : portrait) {
     width: 100vw;
     height: 100vw;
     padding-top: 20px;
+    transform: scale(0.95)
   }
   .commonwise {
     margin-bottom: 4vh;
