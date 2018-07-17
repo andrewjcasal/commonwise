@@ -31,7 +31,7 @@
   padding-top: 90px;
 }
 .commonwise {	    
-  margin-bottom: 68px; 
+  margin-bottom: 48px; 
   height: 52px;		
   color: #7FB54E;	
   font-family: Montserrat;	
@@ -141,7 +141,9 @@
 }
 #message p{
   color:#ffffff;
-  padding-top: 47px;
+  padding-top: 26px;
+  width: 500px;
+  margin: 0 auto;
 }
 #message p.coerror{
   color: red;
