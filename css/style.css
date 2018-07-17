@@ -214,6 +214,7 @@ and (orientation : landscape) {
     height: 100vh;
     padding-top: 30px;
     box-sizing: border-box;
+    transform: scale(0.95)
   }
   .commonwise {
     margin-bottom: 4vh;
