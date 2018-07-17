@@ -74,12 +74,12 @@
   text-align: center;
 }
 .we-won-t-share-your {
-  margin-bottom: 8%;
+  margin-bottom: 4%;
   margin-top: 20px;
   height: 19px;		
   color: #AEAEAE;	
   font-family: Montserrat;	
-  font-size: 16px;	
+  font-size: 14px;	
   line-height: 19px;	
   text-align: center;
   font-weight: 200;
@@ -100,15 +100,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+#mc_embed_signup_scroll>div{
+  text-align: center;
+}
 .text-field
 {
-  height: 50px;
-  width: 320px;
+  height: 42px;
+  width: 240px;
   margin-right: 10px;
   background-color: #FFFFFF;
   color: #AEAEAE;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
   border-radius: 0px;
   padding-left: 20px;
@@ -121,11 +124,11 @@
   background-color: #7FB54E;
 }
 .submit {
-  height: 50px;
-  width: 135px;
+  height: 42px;
+  width: 115px;
   color: #FFFFFF;
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
   text-align: center;
   text-transform: uppercase;
